@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'interVariable';
+  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -10,7 +15,83 @@
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+  position: absolute;
+  bottom: 0;
+}
+
+    
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+
+  body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'interVariable';
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center ;
+  }
+
+  /* Box Styles */
+
+  #main-box{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 25px 35px;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  /* Profile Section */
+  #profile{
+    margin-bottom: 10px;
+    padding: 0 15px;
+  }
+
+  #profile img {
+    border-radius: 50%;
+    width: 30%;
+    margin: 15px;
+  }
+
+  #profile-name{
+    font-weight: 400;
+  }
+
+  #profile-location{
+    color: hsl(75, 94%, 57%);
+    margin: 5px 0 15px 0;
+  }
+
+  #profile-description{
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  /* Links Section */
+
+  #main-box #links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  #main-box #links a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    padding: 12px 0;
+    margin: 10px 0;
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
   }
