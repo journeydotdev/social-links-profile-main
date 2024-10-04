@@ -75,6 +75,7 @@
   #profile-location{
     color: hsl(75, 94%, 57%);
     margin: 5px 0 15px 0;
+    font-size: 14px;
   }
 
   #profile-description{
